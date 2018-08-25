@@ -18,3 +18,13 @@ E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.5\PDFelement 6 Pro\obj\Debug\PDFelemen
 E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.5\PDFelement 6 Pro\obj\Debug\PDFelement 6 Pro.csproj.CoreCompileInputs.cache
 E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.5\PDFelement 6 Pro\obj\Debug\PDFelement 6 Pro.exe
 E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.5\PDFelement 6 Pro\obj\Debug\PDFelement 6 Pro.pdb
+E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.6\PDFelement 6 Pro\bin\Debug\PDFelement 6 Pro.exe.config
+E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.6\PDFelement 6 Pro\bin\Debug\PDFelement 6 Pro.exe
+E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.6\PDFelement 6 Pro\bin\Debug\PDFelement 6 Pro.pdb
+E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.6\PDFelement 6 Pro\obj\Debug\PDFelement 6 Pro.csprojResolveAssemblyReference.cache
+E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.6\PDFelement 6 Pro\obj\Debug\PDFelement_6_Pro.Form1.resources
+E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.6\PDFelement 6 Pro\obj\Debug\PDFelement_6_Pro.Properties.Resources.resources
+E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.6\PDFelement 6 Pro\obj\Debug\PDFelement 6 Pro.csproj.GenerateResource.Cache
+E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.6\PDFelement 6 Pro\obj\Debug\PDFelement 6 Pro.csproj.CoreCompileInputs.cache
+E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.6\PDFelement 6 Pro\obj\Debug\PDFelement 6 Pro.exe
+E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.6\PDFelement 6 Pro\obj\Debug\PDFelement 6 Pro.pdb

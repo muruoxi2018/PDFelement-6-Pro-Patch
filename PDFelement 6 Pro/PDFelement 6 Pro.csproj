@@ -124,7 +124,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Patch_00001.ico" />
-    <EmbeddedResource Include="Resources\PEStudio.PDFElement.Base.dll" />
+    <EmbeddedResource Include="Resources\ProductAuthor.dll" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">

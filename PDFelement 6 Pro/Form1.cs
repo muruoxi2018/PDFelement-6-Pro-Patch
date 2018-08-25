@@ -115,14 +115,14 @@ namespace PDFelement_6_Pro
             BinaryWriter bw;
             byte[] temp;
 
-            System.IO.Stream dll1 = asm.GetManifestResourceStream("PDFelement_6_Pro.Resources.PEStudio.PDFElement.Base.dll");
+            System.IO.Stream dll1 = asm.GetManifestResourceStream("PDFelement_6_Pro.Resources.ProductAuthor.dll");
             temp = new byte[dll1.Length];
             dll1.Read(temp, 0, temp.Length);
             dll1.Seek(0, SeekOrigin.Begin);
             
             try
             {
-                fs = new FileStream(var.path + @"\PEStudio.PDFElement.Base.dll", FileMode.Create);
+                fs = new FileStream(var.path + @"\ProductAuthor.dll", FileMode.Create);
                 bw = new BinaryWriter(fs);
                 bw.Write(temp);
                 fs.Close();
