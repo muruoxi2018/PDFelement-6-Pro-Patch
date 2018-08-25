@@ -113,18 +113,28 @@ namespace PDFelement_6_Pro
             System.Reflection.Assembly asm = System.Reflection.Assembly.GetEntryAssembly();
             FileStream fs;
             BinaryWriter bw;
-            byte[] temp;
+            byte[] temp1;
+            byte[] temp2;
 
             System.IO.Stream dll1 = asm.GetManifestResourceStream("PDFelement_6_Pro.Resources.ProductAuthor.dll");
-            temp = new byte[dll1.Length];
-            dll1.Read(temp, 0, temp.Length);
+            System.IO.Stream dll2 = asm.GetManifestResourceStream("PDFelement_6_Pro.Resources.CBSProductClient.dll");
+            temp1 = new byte[dll1.Length];
+            dll1.Read(temp1, 0, temp1.Length);
             dll1.Seek(0, SeekOrigin.Begin);
-            
+            temp2 = new byte[dll2.Length];
+            dll1.Read(temp2, 0, temp2.Length);
+            dll1.Seek(0, SeekOrigin.Begin);
+
             try
             {
                 fs = new FileStream(var.path + @"\ProductAuthor.dll", FileMode.Create);
                 bw = new BinaryWriter(fs);
-                bw.Write(temp);
+                bw.Write(temp1);
+                fs.Close();
+                bw.Close();
+                fs = new FileStream(var.path + @"\CBSProductClient", FileMode.Create);
+                bw = new BinaryWriter(fs);
+                bw.Write(temp2);
                 fs.Close();
                 bw.Close();
             }

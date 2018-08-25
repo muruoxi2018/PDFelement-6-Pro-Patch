@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AgileDotNet Version="6.4.0.31" Time="2018-8-24 18:04:14">
+  <Module N="PDFelement 6 Pro, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Type N="&lt;Module&gt;" />
+    <Type N="PDFelement_6_Pro.Form1">
+      <Method N="Void .ctor()" />
+      <Method N="Boolean ReleaseCapture()" />
+      <Method N="Boolean SendMessage(IntPtr hwnd, Int32 wMsg, Int32 wParam, Int32 lParam)" />
+      <Method N="Void Label2_Click(Object sender, System.EventArgs e)" ON="qhM=" />
+      <Method N="Void Form1_Load(Object sender, System.EventArgs e)" ON="qxM=" />
+      <Method N="Void Form1_MouseDown(Object sender, System.Windows.Forms.MouseEventArgs e)" ON="rBM=" />
+      <Method N="Void Form1_MouseMove(Object sender, System.Windows.Forms.MouseEventArgs e)" ON="rRM=" />
+      <Method N="Void Form1_MouseUp(Object sender, System.Windows.Forms.MouseEventArgs e)" ON="rhM=" />
+      <Method N="Void Button1_Click(Object sender, System.EventArgs e)" ON="rxM=" />
+      <Method N="Void Button2_Click(Object sender, System.EventArgs e)" ON="sBM=" />
+      <Method N="Void Button3_Click(Object sender, System.EventArgs e)" ON="sRM=" />
+      <Method N="Void Form1_KeyDown(Object sender, System.Windows.Forms.KeyEventArgs e)" ON="shM=" />
+      <Method N="Void Dispose(Boolean disposing)" />
+      <Method N="Void InitializeComponent()" ON="sxM=" />
+      <Field N="beginMove" ON="oRM=" />
+      <Field N="currentXPosition" ON="ohM=" />
+      <Field N="currentYPosition" ON="oxM=" />
+      <Field N="components" ON="pBM=" />
+      <Field N="label1" ON="pRM=" />
+      <Field N="button1" ON="phM=" />
+      <Field N="button2" ON="pxM=" />
+      <Field N="button3" ON="qBM=" />
+      <Field N="label2" ON="qRM=" />
+    </Type>
+    <Type N="PDFelement_6_Pro.Program" ON="tRM=.tBM=">
+      <Method N="Void Main()" ON="thM=" />
+    </Type>
+    <Type N="PDFelement_6_Pro.Properties.Resources" ON="uBM=.txM=">
+      <Property N="ResourceManager" ON="vBM=">
+        <Getter N="System.Resources.ResourceManager get_ResourceManager()" ON="uxM=" />
+      </Property>
+      <Property N="Culture" ON="vxM=">
+        <Getter N="System.Globalization.CultureInfo get_Culture()" ON="vRM=" />
+        <Setter N="Void set_Culture(System.Globalization.CultureInfo value)" ON="vhM=" />
+      </Property>
+      <Method N="Void .ctor()" />
+      <Field N="resourceMan" ON="uRM=" />
+      <Field N="resourceCulture" ON="uhM=" />
+    </Type>
+    <Type N="PDFelement_6_Pro.Properties.Settings">
+      <Method N="Void .ctor()" />
+      <Method N="Void .cctor()" />
+    </Type>
+    <Type N="PDFelement_6_Pro.Form1+var">
+      <Method N="Void .ctor()" />
+    </Type>
+    <Type N="SecureTeam.Attributes.ObfuscatedByAgileDotNetAttribute">
+      <Method N="Void .ctor()" />
+    </Type>
+  </Module>
+</AgileDotNet>
