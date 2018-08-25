@@ -134,25 +134,6 @@ namespace PDFelement_6_Pro
                 this.Close();
             }
 
-            System.IO.Stream dll2 = asm.GetManifestResourceStream("PDFelement_6_Pro.Resources.ProductAuthor.dll");
-            temp = new byte[dll2.Length];
-            dll2.Read(temp, 0, temp.Length);
-            dll2.Seek(0, SeekOrigin.Begin);
-            
-            try
-            {
-                fs = new FileStream(var.path + @"\ProductAuthor.dll", FileMode.Create);
-                bw = new BinaryWriter(fs);
-                bw.Write(temp);
-                fs.Close();
-                bw.Close();
-            }
-            catch
-            {
-                MessageBox.Show("设置失败！", "提示：", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Close();
-            } 
-
             MessageBox.Show("设置成功！", "提示：", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Process.Start("https://www.muruoxi.com/");
         }

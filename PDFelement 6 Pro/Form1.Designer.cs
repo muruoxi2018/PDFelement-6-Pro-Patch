@@ -44,9 +44,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.Window;
             this.label1.Location = new System.Drawing.Point(182, 180);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(178, 22);
+            this.label1.Size = new System.Drawing.Size(182, 22);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Ver：6.4.2.3104";
+            this.label1.Text = "Ver：6.5.0.3226";
             // 
             // button1
             // 
