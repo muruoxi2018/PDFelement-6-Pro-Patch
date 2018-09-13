@@ -37,13 +37,3 @@ E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.8\PDFelement 6 Pro\obj\Release\PDFelem
 E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.8\PDFelement 6 Pro\obj\Release\PDFelement 6 Pro.csproj.CoreCompileInputs.cache
 E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.8\PDFelement 6 Pro\obj\Release\PDFelement 6 Pro.exe
 E:\C#\PDFelement 6 Pro\PDFelement 6 Pro 6.8\PDFelement 6 Pro\obj\Release\PDFelement 6 Pro.pdb
-E:\Git\PDFelement-6-Pro-Patch\PDFelement 6 Pro\obj\Release\PDFelement 6 Pro.csprojResolveAssemblyReference.cache
-E:\Git\PDFelement-6-Pro-Patch\PDFelement 6 Pro\obj\Release\PDFelement_6_Pro.Form1.resources
-E:\Git\PDFelement-6-Pro-Patch\PDFelement 6 Pro\obj\Release\PDFelement_6_Pro.Properties.Resources.resources
-E:\Git\PDFelement-6-Pro-Patch\PDFelement 6 Pro\obj\Release\PDFelement 6 Pro.csproj.GenerateResource.Cache
-E:\Git\PDFelement-6-Pro-Patch\PDFelement 6 Pro\obj\Release\PDFelement 6 Pro.csproj.CoreCompileInputs.cache
-E:\Git\PDFelement-6-Pro-Patch\PDFelement 6 Pro\obj\Release\PDFelement 6 Pro.exe
-E:\Git\PDFelement-6-Pro-Patch\PDFelement 6 Pro\obj\Release\PDFelement 6 Pro.pdb
-E:\Git\PDFelement-6-Pro-Patch\PDFelement 6 Pro\bin\Release\PDFelement 6 Pro.exe.config
-E:\Git\PDFelement-6-Pro-Patch\PDFelement 6 Pro\bin\Release\PDFelement 6 Pro.exe
-E:\Git\PDFelement-6-Pro-Patch\PDFelement 6 Pro\bin\Release\PDFelement 6 Pro.pdb
