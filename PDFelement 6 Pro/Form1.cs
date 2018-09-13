@@ -89,27 +89,22 @@ namespace PDFelement_6_Pro
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            
-            RegistryKey reg = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, Environment.Is64BitOperatingSystem ? RegistryView.Registry64 : RegistryView.Registry32);
-           
-                try { 
-                if (Environment.Is64BitOperatingSystem) {
-                    var.path = reg.OpenSubKey(@"SOFTWARE\WOW6432Node\Wondershare\Wondershare PDFelement 6 Pro").GetValue("appsetuppath").ToString();
-                }
-                else
-                {
-                    var.path = reg.OpenSubKey(@"SOFTWARE\Wondershare\Wondershare PDFelement 6 Pro").GetValue("appsetuppath").ToString();
-                }
+            string reg;
+            try {
+            if (Directory.Exists(Environment.GetEnvironmentVariable("systemroot").Substring(0, 3) + "Program Files (x86)"))
+            {
+                reg = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\WOW6432Node\Wondershare\Wondershare PDFelement 6 Pro").GetValue("appsetuppath").ToString();
             }
+            else
+            {
+                reg = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Wondershare\Wondershare PDFelement 6 Pro").GetValue("appsetuppath").ToString();
+            }
+            
+             }
             catch
             {
                 MessageBox.Show("请先安装PDFelement 6 Pro产品！", "提示：", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally
-            {
-                reg.Close();
-            }
-
             System.Reflection.Assembly asm = System.Reflection.Assembly.GetEntryAssembly();
             FileStream fs;
             BinaryWriter bw;
